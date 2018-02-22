@@ -1,0 +1,17 @@
+html {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #00FFFF;
+}
+
+img {
+    justify-content: space-between;
+    height: 500px;
+    width: 33%;
+}
+
+button {
+    background-color: #00FFFF;
+    box-shadow: #00FFFF
+}

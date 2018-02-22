@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Rock Paper Scissors!
+        </title>
+        <link href="RPSStyles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Welcome to Ninja, Outlaw, Barbarian!
+        </h1>
+        <div>
+            Click on the picture corresponding to your choice!
+            <br>
+            Ninja stabs Outlaw, Outlaw shoots Barbarian, Barbarian squishes Ninja!
+        </div>
+
+        <img id="Ninja" onclick="choiceNinja()" src="Ninja.png">
+        <img id="Outlaw" onclick="choiceOutlaw()" src="Outlaw.png">
+        <img id="Barbarian" onclick="choiceBarbarian()" src="Barbarian.png">
+        
+
+        <div id="ending">
+
+        </div>
+        <div id="wins">
+            Wins: 0
+        </div>
+        <div id="losses">
+            Losses: 0
+        </div>
+        <div id="ties">
+            Ties: 0
+        </div>
+
+        <button id="Reset" onclick="reset()">
+            Reset
+        </button>
+        <script src="RPSJS.js"></script>
+    </body>
+</html>
